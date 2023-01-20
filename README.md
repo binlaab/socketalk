@@ -7,7 +7,7 @@ SockeTalk (thank you, ChatGPT) is a socket-based chat written in Go as a starter
 ## Quick start
 1. Build the project:
    ```bash
-   go build . -ldflags "-s -w"
+   go build -ldflags "-s -w" . 
    ```
 2. Run it:
     ```
